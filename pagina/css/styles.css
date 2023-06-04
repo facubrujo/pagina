@@ -83,7 +83,7 @@ footer{
     color: whitesmoke;
 }
 
-@media ( max-width: 700px ){
+@media ( max-width: 740px ){
     body{
         flex-direction: column;
     }
