@@ -82,3 +82,9 @@ footer{
     font-family: 'Press Start 2P', cursive;
     color: whitesmoke;
 }
+
+@media ( max-width: 700px ){
+    body{
+        flex-direction: column;
+    }
+}
