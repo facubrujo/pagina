@@ -79,7 +79,11 @@ footer{
 .divFooterLi , li{
     display: flex;
     justify-content: space-around;
-
+    height: 30px;
+    align-items: center;
+    background-color: black;
+    
+    
     font-family: 'Press Start 2P', cursive;
     color: whitesmoke;
 }
@@ -88,4 +92,31 @@ footer{
     body{
         flex-direction: column;
     }
+    .cont2{
+   
+        background-color: rgba(0, 54, 0, 0.555);
+        width: 100%;
+        padding: 20px ;
+        /* border: solid black 20px; */
+        overflow: auto;
+    }
+    .cont1 , .cont3{
+        background-color: rgba(0, 54, 0, 0.438);
+        width: 0%;
+        padding: 0px ;
+        
+    }
+    .divFooterLi , li{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-family: 'Press Start 2P', cursive;
+        color: whitesmoke;
+    }
 }
+
+/* @media ( max-width: 740px ){
+    body{
+        flex-direction: column;
+    }
+} */
