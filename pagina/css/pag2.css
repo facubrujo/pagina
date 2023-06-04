@@ -1,0 +1,28 @@
+*{
+    background-color: black;
+}
+
+.contenedor1{
+    display: flex;
+    
+    background-image: url(../gif/giphy\ \(2\).gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    height: 550px;
+    justify-content: center;
+    text-align: justify;
+}
+
+.contenedor2{
+    display: flex;
+    
+    background-image: url(../gif/giphy.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    height: 550px;
+    justify-content: center;
+}
